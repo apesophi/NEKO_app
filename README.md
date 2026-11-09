@@ -1,149 +1,93 @@
-<div align="center">
-
-<!-- Substitua por ./assets/logo-neko.png -->
-<img src="./assets/logo-neko.png" alt="Neko" width="160" />
-
-# NEKO
+# Neko
 
 **Seu tempo. Sua vida.**
 
-Equilíbrio digital com leveza: entenda seus hábitos, recupere o foco e viva mais fora da tela.
+Neko é um aplicativo de equilíbrio digital que ajuda as pessoas a entenderem e melhorarem a relação com o tempo de tela, por meio de dados claros, metas realistas e uma experiência sem culpa.
 
-<br />
-
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-6C5CE7?style=for-the-badge)
-![Plataforma](https://img.shields.io/badge/plataforma-mobile-3B82F6?style=for-the-badge)
-![Design](https://img.shields.io/badge/design-UI%2FUX-0B0B14?style=for-the-badge)
-![Licença](https://img.shields.io/badge/licen%C3%A7a-todos%20os%20direitos%20reservados-8B5CF6?style=for-the-badge)
-
-[Sobre](#-sobre) · [Funcionalidades](#-funcionalidades) · [Identidade visual](#-identidade-visual) · [Telas](#-telas) · [Tecnologias](#-tecnologias) · [Roadmap](#-roadmap)
-
-</div>
-
-<br />
+**Status:** em desenvolvimento · **Plataforma:** mobile
 
 ---
 
-## 🌙 Sobre
+## Índice
 
-O **Neko** é um app de equilíbrio digital criado para quem quer usar o celular com mais consciência. Em vez de culpa e bloqueios agressivos, o Neko transforma o tempo de tela em informação clara e hábitos possíveis, com um mascote que acompanha cada passo da jornada.
-
-> *Como um gato: atento, tranquilo e sempre no seu ritmo.*
-
-### Princípios
-
-| | Princípio | O que significa |
-| :-: | --- | --- |
-| 👁️ | **Clareza** | Dados de uso simples de entender, sem excesso de números |
-| 🌿 | **Leveza** | Incentivo positivo, nunca punição |
-| 🎯 | **Intenção** | Você define o que importa e o app ajuda a manter |
-| 🔒 | **Privacidade** | Seus hábitos são seus |
+- [Visão geral](#visão-geral)
+- [Funcionalidades](#funcionalidades)
+- [Identidade visual](#identidade-visual)
+- [Stack](#stack)
+- [Instalação](#instalação)
+- [Roadmap](#roadmap)
+- [Contribuição](#contribuição)
+- [Autora](#autora)
+- [Licença](#licença)
 
 ---
 
-## ✨ Funcionalidades
+## Visão geral
 
-- **📊 Painel de tempo de tela** — visão diária, semanal e por app
-- **🎯 Metas personalizadas** — limites por app ou categoria
-- **🧘 Modo foco** — pausas e silêncio nos momentos que importam
-- **🔔 Lembretes conscientes** — avisos gentis, no tom do Neko
-- **📈 Evolução dos hábitos** — relatórios e conquistas ao longo do tempo
-- **🐈‍⬛ Mascote interativo** — reage ao seu progresso
+O uso excessivo do celular é um problema crescente, mas muitas soluções existentes se apoiam em bloqueios rígidos e na sensação de culpa. O Neko adota a abordagem oposta: transformar o tempo de tela em informação acessível e apoiar a construção gradual de hábitos mais saudáveis.
 
-<sub>Ajuste a lista conforme o escopo final do app.</sub>
+### Princípios de produto
+
+- **Clareza:** dados de uso fáceis de interpretar.
+- **Leveza:** incentivo positivo, sem punição.
+- **Intenção:** o usuário define o que é importante para si.
+- **Privacidade:** os hábitos de uso pertencem ao usuário.
 
 ---
 
-## 🎨 Identidade visual
+## Funcionalidades
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Logo
-- **Mascote:** gato escuro de olhos brancos brilhantes
-- **Wordmark:** `NEKO` em gradiente azul → roxo
-- **Slogan:** *Seu tempo. Sua vida.*
-
-</td>
-<td width="50%" valign="top">
-
-### Paleta
-
-| Cor | Uso |
+| Funcionalidade | Descrição |
 | --- | --- |
-| 🟦 Azul | Gradiente principal |
-| 🟪 Roxo | Gradiente e destaques |
-| ⬛ Preto profundo | Fundo e mascote |
-| ⬜ Branco | Olhos, textos e contraste |
+| Painel de uso | Visão diária, semanal e por aplicativo |
+| Metas personalizadas | Limites por aplicativo ou categoria |
+| Modo foco | Pausas e silenciamento em períodos definidos |
+| Lembretes | Notificações discretas e contextuais |
+| Relatórios | Evolução dos hábitos ao longo do tempo |
 
-<sub>Inclua aqui os códigos HEX oficiais.</sub>
-
-</td>
-</tr>
-</table>
+> A lista acima deve ser ajustada ao escopo final do produto.
 
 ---
 
-## 📱 Telas
+## Identidade visual
 
-<div align="center">
-
-<!-- Substitua pelas imagens reais -->
-<img src="./assets/tela-01.png" width="22%" alt="Tela 1" />
-<img src="./assets/tela-02.png" width="22%" alt="Tela 2" />
-<img src="./assets/tela-03.png" width="22%" alt="Tela 3" />
-<img src="./assets/tela-04.png" width="22%" alt="Tela 4" />
-
-</div>
-
-<details>
-<summary><b>Ver prancha completa</b></summary>
-<br />
-
-![Prancha Neko](./assets/prancha.png)
-
-</details>
-
----
-
-## 🛠️ Tecnologias
-
-| Camada | Ferramentas |
+| Elemento | Especificação |
 | --- | --- |
-| **Design** | Figma · Illustrator |
-| **Front-end** | _a definir_ |
-| **Back-end** | _a definir_ |
-| **Dados** | _a definir_ |
+| Símbolo | Gato escuro com olhos brancos brilhantes |
+| Logotipo | Wordmark `NEKO` com gradiente azul → roxo |
+| Slogan | Seu tempo. Sua vida. |
+| Paleta | Azul e roxo (gradiente), preto profundo e branco |
 
 ---
 
-## 🚀 Começando
+## Stack
 
-<details>
-<summary><b>Rodando localmente</b></summary>
-<br />
+| Camada | Tecnologia |
+| --- | --- |
+| Design | Figma, Illustrator |
+| Front-end | A definir |
+| Back-end | A definir |
+| Dados | A definir |
+
+---
+
+## Instalação
+
+**Pré-requisitos:** Node.js 18 ou superior.
 
 ```bash
-# Clonar o repositório
 git clone https://github.com/apesophi/neko.git
 cd neko
-
-# Instalar dependências
 npm install
-
-# Iniciar em modo de desenvolvimento
 npm run dev
 ```
 
-</details>
-
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [x] Conceito e posicionamento
-- [x] Identidade visual e logo
+- [x] Identidade visual
 - [x] Design das telas principais
 - [ ] Protótipo interativo
 - [ ] MVP funcional
@@ -152,19 +96,21 @@ npm run dev
 
 ---
 
-## 🤝 Contribuição
+## Contribuição
 
-Sugestões e feedbacks são bem-vindos. Abra uma [issue](https://github.com/apesophi/neko/issues) para conversar.
+Sugestões e feedbacks são bem-vindos. Abra uma [issue](https://github.com/apesophi/neko/issues) para iniciar a conversa.
 
 ---
 
-<div align="center">
+## Autora
 
-Feito com 💜 por **Sophia Alves Pereira**
-Front-End Developer & Graphic Designer
+**Sophia Alves Pereira**
+Front-End Developer e Graphic Designer
 
-[GitHub](https://github.com/apesophi) · [Behance](https://www.behance.net/) · [Portfólio](#)
+[GitHub](https://github.com/apesophi) · [Behance](https://www.behance.net/)
 
-<sub>© 2026 Sophia Alves Pereira. Todos os direitos reservados.</sub>
+---
 
-</div>
+## Licença
+
+© 2026 Sophia Alves Pereira. Todos os direitos reservados.
