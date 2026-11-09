@@ -1,0 +1,8 @@
+{
+  "name": "NEKO — Seu tempo. Sua vida.",
+  "description": "Aplicativo de equilíbrio digital com mascote Neko, monitoramento consciente do tempo de tela, desafios diários, gamificação e relatórios de bem-estar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

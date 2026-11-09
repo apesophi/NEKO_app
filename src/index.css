@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  --color-neko-bg: #10151D;
+  --color-neko-surface: #192331;
+  --color-neko-card: #202D3D;
+  --color-neko-card-hover: #26364a;
+  --color-neko-text: #F5F7FA;
+  --color-neko-muted: #AAB6C5;
+  --color-neko-mint: #65D6C5;
+  --color-neko-lime: #C7F36B;
+  --color-neko-pink: #F28BB5;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #10151D;
+  color: #F5F7FA;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar for clean dark aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #10151D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #202D3D;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2a3c52;
+}
